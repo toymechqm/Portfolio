@@ -155,7 +155,7 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url("bg.jpg") no-repeat center center scroll;
+    background: url("bgfour.jpg") no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -207,8 +207,38 @@ hr.small {
 }
 
 .img-portfolio:hover {
-    opacity: 0.8;
+    opacity: 0.75;
 }
+
+
+
+.imgWrap {
+  position: relative;
+}
+
+.imgDescription {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: black;
+  padding-top: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: visibility opacity 0.2s;
+
+}
+
+
+.imgWrap:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
+}
+
 
 /* Call to Action */
 
