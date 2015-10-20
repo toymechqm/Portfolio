@@ -206,14 +206,9 @@ hr.small {
     margin: 0 auto;
 }
 
-.img-portfolio:hover {
-    opacity: 0.75;
-}
-
-
-
-.imgWrap {
+.imgWrap:hover {
   position: relative;
+  opacity: 0.75;
 }
 
 .imgDescription {
